@@ -7,7 +7,7 @@ from pydub import AudioSegment  # Import for audio conversion
 from googletrans import Translator  # Import Google Translator for language translation
 
 # Set the provided API key
-GOOGLE_API_KEY = "AIzaSyA_hfqTEIEVqlc2qmkTZxTN11YmBhayy-0"  # Ensure this key is valid
+GOOGLE_API_KEY = "API-KEY"  # Ensure this key is valid
 
 # Configure the Generative AI API
 genai.configure(api_key=GOOGLE_API_KEY)
