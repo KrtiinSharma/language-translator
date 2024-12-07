@@ -6,7 +6,7 @@ import os
 from pydub import AudioSegment  # Import here for convenience
 
 # Set the provided API key
-GOOGLE_API_KEY = "AIzaSyA_hfqTEIEVqlc2qmkTZxTN11YmBhayy-0"  # Please make sure this key is valid
+GOOGLE_API_KEY = "API-KEY"  # Please make sure this key is valid
 
 # Configure the Generative AI API
 genai.configure(api_key=GOOGLE_API_KEY)
